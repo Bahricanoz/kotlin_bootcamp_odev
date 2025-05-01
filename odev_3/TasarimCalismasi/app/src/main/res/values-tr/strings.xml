@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Hamburger</string>
+    <string name="hamburgerBaslik">Köfte Burger</string>
+    <string name="meeatballYazi">Köfte</string>
+    <string name="onionYazi">Soğan</string>
+    <string name="lettuceYazi">Maruk</string>
+    <string name="tomatoYazi">Domates</string>
+    <string name="descriptionYazi">Köfte burgerinizin tadını çıkarmaya hazır olun!</string>
+    <string name="fiyatYazi">310.95 TL</string>
+    <string name="butonYazi">Sepete Ekle</string>
+</resources>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Hamburger</string>
+    <string name="hamburgerBaslik">Meatball Burger</string>
+    <string name="meeatballYazi">Meatball</string>
+    <string name="onionYazi">Onion</string>
+    <string name="lettuceYazi">Lettuce</string>
+    <string name="tomatoYazi">Tomato</string>
+    <string name="descriptionYazi">Get ready to enjoy your meatball burger!</string>
+    <string name="fiyatYazi">$ 8.95</string>
+    <string name="butonYazi">Add to Card</string>
+</resources>
