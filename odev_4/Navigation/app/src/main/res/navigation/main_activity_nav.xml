@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_activity_nav"
+    app:startDestination="@id/anaSayfaFragment">
+    <fragment
+        android:id="@+id/anaSayfaFragment"
+        android:name="com.example.navigation.AnaSayfaFragment"
+        android:label="fragment_ana_sayfa"
+        tools:layout="@layout/fragment_ana_sayfa" >
+        <action
+            android:id="@+id/aSayfaGecis"
+            app:destination="@id/ASayfaFragment" />
+        <action
+            android:id="@+id/xSayfaGecis"
+            app:destination="@id/XSayfaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ASayfaFragment"
+        android:name="com.example.navigation.ASayfaFragment"
+        android:label="fragment_a_sayfa"
+        tools:layout="@layout/fragment_a_sayfa" >
+        <action
+            android:id="@+id/bSayfaGecis"
+            app:destination="@id/BSayfaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/BSayfaFragment"
+        android:name="com.example.navigation.BSayfaFragment"
+        android:label="fragment_b_sayfa"
+        tools:layout="@layout/fragment_b_sayfa" >
+        <action
+            android:id="@+id/ySayfaGecis"
+            app:destination="@id/YSayfaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/XSayfaFragment"
+        android:name="com.example.navigation.XSayfaFragment"
+        android:label="fragment_x_sayfa"
+        tools:layout="@layout/fragment_x_sayfa" >
+        <action
+            android:id="@+id/ySayfaGecis2"
+            app:destination="@id/YSayfaFragment"
+            app:popUpToInclusive="false" />
+    </fragment>
+    <fragment
+        android:id="@+id/YSayfaFragment"
+        android:name="com.example.navigation.YSayfaFragment"
+        android:label="fragment_y_sayfa"
+        tools:layout="@layout/fragment_y_sayfa" />
+</navigation>
